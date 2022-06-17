@@ -22,11 +22,17 @@
     padding: 20px;
 }
 
+.trial{
+    width: 80%;
+    margin-left: auto;
+}
+
 .form{
     border-radius: 5px;
     background-color: #f2f2f2;
     padding: 20px;
     box-shadow: 10px 5px 5px #ccc;
+    width: 80%;
 }
 
 input[type=text], select {
@@ -40,7 +46,6 @@ input[type=text], select {
     font-family:  'Poppins', sans-serif;
 }
 
-
 input[type=submit-1] {
     width: 100%;
     background-color: hsl(248, 32%, 49%);
@@ -51,6 +56,7 @@ input[type=submit-1] {
     border-radius: 4px;
     box-shadow: 0 8px 16px 0 #ccc;
 }
+
 
 input[type=submit] {
     width: 100%;

@@ -8,6 +8,7 @@
 body{
     background-image: url(/images/bg-intro-desktop.png);
     background-color: hsl(0, 100%, 74%);
+    
 }
 
 .h1{
@@ -37,6 +38,10 @@ p{
     color: white;
 }
 
+.try1{
+    color: hsl(246, 25%, 77%);
+}
+
 .form-container{
     width: 40%;
     border-radius: 5px;
@@ -44,6 +49,7 @@ p{
     padding-top: 10px;
     padding: 20px;
     box-shadow: 0 9px 0 #e46c70;
+    
 }
 
 input[type=text], select {

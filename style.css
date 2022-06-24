@@ -15,6 +15,7 @@ body{
     align-items: center;
     height: 100vh;
     flex-direction: row;
+    position: relative;
 }
 
 .h1{
@@ -89,4 +90,14 @@ span{
     color: hsl(0, 100%, 74%) ;
 }
 
+@media screen and (max-width: 1440px) {
+    .body{
+        width: 50%
+    }
+}
 
+@media screen and (max-width: 375px) {
+    .body{
+        width: 100%
+    }
+}
